@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Message Box</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="message-box" class="message-box">
+            <div class="box-header">
+                <h3>Send us a message</h3>
+                <a href="#" class="btn-close"><i class="fa-solid fa-minus"></i></a>
+            </div>
+            <div class="form-content">
+                <div class="text-content"></div>
+                <form id="form-input">
+                    <div class="form-control">
+                        <label for="name-input">Your name</label>
+                        <input type="text" name="name" id="name-input" placeholder="e.g Joe Doe">
+                    </div>
+                    <div class="form-control">
+                        <label for="email-input">Email address</label>
+                        <input type="email" name="email" id="email-input" placeholder="e.g joed@mail.com">
+                    </div>
+                    <div class="form-control">
+                        <label for="message-section">What can we do for you?</label>
+                        <textarea name="message" id="message-section" cols="20" rows="5"
+                            placeholder="Type your message here"></textarea>
+                    </div>
+                    <div class="form-control">
+                        <label for="attachment-input" class="attachment-custom">Upload file</label>
+                        <input type="file" name="attachment" id="attachment-input">
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #fffdfd;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 2rem; }
+
+.container {
+  box-shadow: 0 5px 10px rgba(172, 172, 172, 0.6);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 380px;
+  overflow: hidden; }
+
+.btn {
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #fff;
+  background: #fa7171;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem; }
+  .btn:hover {
+    opacity: 0.8; }
+
+#message-box .box-header {
+  background: #fa7171;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem; }
+
+#message-box .box-header h3 {
+  font-weight: 400; }
+
+#message-box .box-header a {
+  color: #fff; }
+
+.form-content {
+  background: #fff;
+  padding: 1.2rem 1.5rem; }
+
+#form-input .form-control {
+  display: flex;
+  flex-direction: column; }
+
+#form-input label {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #646464;
+  margin: 1.2rem 0 0.25rem; }
+
+#form-input input[type="text"],
+#form-input input[type="email"],
+#form-input textarea {
+  padding: 0.5rem;
+  border: 2px solid #e7dede;
+  border-radius: 5px; }
+
+#form-input textarea {
+  resize: none;
+  font-family: 'Roboto', sans-serif; }
+
+#form-input input[type="file"] {
+  display: none; }
+
+#form-input .attachment-custom {
+  border: 2px dashed #e7dede;
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease-in; }
+  #form-input .attachment-custom:hover {
+    background: #e7dede; }
